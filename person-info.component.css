@@ -1,0 +1,88 @@
+:host /deep/ ng2-smart-table {
+     font-size: medium; 
+}
+
+:host /deep/ table {
+  width: 1200px !important;
+  overflow-x: scroll;
+
+}
+
+
+/* :host /deep/ table tbody{ overflow-x: scroll; }
+
+:host /deep/ ng2-smart-table table[_nghost-c2] {
+  line-height: 1.5em;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  display: block;
+  overflow-x: scroll;
+  word-break: normal;
+  word-break: keep-all;
+} */
+:host /deep/ [_nghost-c2] a {
+  color: #1caf9a;
+  text-decoration: none;
+}
+:host /deep/ .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+  z-index: 3;
+  color: #fff;
+  cursor: default;
+  background-color: #1caf9a;
+  border-color: #1caf9a;
+}
+:host /deep/ .table>thead:first-child>tr:first-child>th {
+  border-top: 0;
+  color: #1caf9a;
+}
+:host /deep/ .ng2-smart-pagination[_ngcontent-c4] .page-link-prev[_ngcontent-c4] {
+  font-size: 10px;
+  height: 34px !important;
+  padding: 10px;
+}
+:host /deep/ .table>thead:first-child>tr:first-child>th {
+  border-top: 0;
+  color: #1caf9a;
+}
+:host /deep/ .ng2-smart-pagination[_ngcontent-c4] .page-link-next[_ngcontent-c4] {
+  font-size: 10px;
+  height: 34px !important;
+  padding: 10px;
+}
+:host /deep/ .ng2-smart-pagination[_ngcontent-c4] {
+  display: inline-flex;
+  font-size: .875em;
+  padding: 0;
+}
+/* ::-webkit-scrollbar {
+  display:none 
+} */
+.component-title {
+     background-color: #FAFAFA;
+     color: #474747;
+     border: 1px solid #BDBDBD;
+     padding: 1px;
+     font-family: arial;
+     font-style: italic;
+     font-weight: normal;
+     font-size: 10px;
+     font-variant: normal;
+     text-align: center;
+     text-decoration: none;
+     text-transform: none;
+     border-radius: 5px;
+     box-shadow: 1px 0px 5px #E6E6E6;
+   }
+   .under-title {
+     color: cornflowerblue;
+   }
+   .path-title {
+     background-color: #FFFFFF;
+     color: #ED850E;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 11px;
+     text-decoration: none;
+   }
+   
